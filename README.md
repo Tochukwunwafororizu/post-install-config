@@ -30,25 +30,38 @@ This tutorial outlines the post-install configuration of the open-source help de
 <h2>Configuration Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+We are going to use the two URL to log into the osTicket as Admin/Analyst and as End Users to see if it works.
+
+- http://localhost/osTicket/scp/login.php
+- http://localhost/osTicket
+  
+<img src="https://i.imgur.com/C72rtRN.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+ 
+
+In this lab we are going to configure some features in my osTicket.
+First is ROLES (for grouping permission. Basically giving permision to a certain group of people.) In this Lab, I will  add a new role and name it "Supreme Admin."
+To achieve this, i will go to Admin panel-Agents-Roles.  
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/UZrXoEH.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+
+<img src="https://i.imgur.com/zKbNKnf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Next is to configure DEPARTMENT (Ticket Visibity which might be for Help Desk, SysAdmins, or Network admin) for example if a tickect get assigned to the network department it
+only that department sees the ticket.To do that go to Admin Panel - Agents - departments to configure. Add a new department and name it "SysAdmins"
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/501vE8A.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+<img src="https://i.imgur.com/GWEmRRq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Next is to configure TEAMS 
 </p>
 <br />
