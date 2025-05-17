@@ -53,7 +53,7 @@ To achieve this, i will go to Admin panel-Agents-Roles.
 <img src="https://i.imgur.com/zKbNKnf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <p>
 Next is to configure DEPARTMENT (Ticket Visibity which might be for Help Desk, SysAdmins, or Network admin) for example if a tickect get assigned to the network department it
-only that department sees the ticket.To do that go to Admin Panel - Agents - departments to configure. Add a new department and name it "SysAdmins"
+only that department sees the ticket. To do that go to Admin Panel - Agents - departments to configure. Add a new department and name it "SysAdmins"
 </p>
 <br />
 
@@ -62,6 +62,14 @@ only that department sees the ticket.To do that go to Admin Panel - Agents - dep
 </p>
 <img src="https://i.imgur.com/GWEmRRq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <p>
-Next is to configure TEAMS 
+Next is to configure TEAMS: Let's say you want to create awhole group of people for example, If you are working in a bank you will create online banking  that may consist of SysAdmins
+who are who are responsible for the online banking system. To do that you will go to Admin Panel - Agents - Teams
 </p>
 <br />
+
+<p>
+<img src="https://i.imgur.com/01U31sF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+Next is to allow users create ticket even if they are not allowed. i.e end users are allowed to create their own ticket without having account. so to do that, go to Admin Panel -
+User Settings - Uncheck unregistered user so they can create ticket. (Registration required, Required registration and login to create ticket.)
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
