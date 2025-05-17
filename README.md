@@ -41,7 +41,7 @@ We are going to use the two URL to log into the osTicket as Admin/Analyst and as
  
 
 In this lab we are going to configure some features in my osTicket.
-First is ROLES (for grouping permission. Basically giving permision to a certain group of people.) In this Lab, I will  add a new role and name it "Supreme Admin."
+First is ROLES: (for grouping permission. Basically giving permision to a certain group of people.) In this Lab, I will  add a new role and name it "Supreme Admin."
 To achieve this, i will go to Admin panel-Agents-Roles.  
 </p>
 <br />
@@ -52,7 +52,7 @@ To achieve this, i will go to Admin panel-Agents-Roles.
 
 <img src="https://i.imgur.com/zKbNKnf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <p>
-Next is to configure DEPARTMENT (Ticket Visibity which might be for Help Desk, SysAdmins, or Network admin) for example if a tickect get assigned to the network department it
+Next is to configure DEPARTMENT: (Ticket Visibity which might be for Help Desk, SysAdmins, or Network admin) for example if a tickect get assigned to the network department it
 only that department sees the ticket. To do that go to Admin Panel - Agents - departments to configure. Add a new department and name it "SysAdmins"
 </p>
 <br />
@@ -72,4 +72,23 @@ who are who are responsible for the online banking system. To do that you will g
 </p>
 Next is to allow users create ticket even if they are not allowed. i.e end users are allowed to create their own ticket without having account. so to do that, go to Admin Panel -
 User Settings - Uncheck unregistered user so they can create ticket. (Registration required, Required registration and login to create ticket.)
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/DahC3sK.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+
+<p>
+Next is to configure AGENTS/ WORKERS: For example if  John and Jane is hired to work in helpdesk , we will create Agent account for them and set their passwords each as "Password1". To actually do that we will go to
+Admin Panel - Agents -Add New.    We are going to add Jane(Dept- SysAdmin.)  and John(Dept- Support.) 
+<img src="https://i.imgur.com/LQhFVZt.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<img src="https://i.imgur.com/Uv3UESR.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<img src="https://i.imgur.com/9rkUiet.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+
+<p>
+Next is to configure USERS/ CUSTOMERS: I'm just going to add one user "Karen" to make it simple. To do that am just going to go to Agent Panel - Users - Add New.
+<p>
+<img src="https://i.imgur.com/ixxrmb5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
