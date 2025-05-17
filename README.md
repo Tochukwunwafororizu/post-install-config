@@ -92,3 +92,41 @@ Next is to configure USERS/ CUSTOMERS: I'm just going to add one user "Karen" to
 <p>
 <img src="https://i.imgur.com/ixxrmb5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+<br />
+
+<p>
+Next is to configure SLA(Service Level Agreement): It simply means a level of understanding between help desk team and customers. For example, It's basically 
+how much time it took you or it's going to take you to  respond or resolve a ticket problem. To do that we going to Admin Panel - Manage - SLA.
+
+<h2>We are going to set it as follows:</h2> 
+  
+- Sev-A (Grace Period: 1 hour, Schedule: 24/7)
+- Sev-B (Grace Period: 4 hours, Schedule: 24/7)
+- Sev-C (Grace Period: 8 hours, Business Hours)
+
+<p>
+<img src="https://i.imgur.com/I6ezxaY.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+
+<p>
+Lastly, we are going to configure "Help Topics" for when users create a ticket. To do that, go to Admin Panel - Manage - Help Topics.
+
+<h2>Add these new topics:</h2>
+
+- Business Critical Outage
+- Personal Computer Issues
+- Equipment Request
+- Password Reset
+- Other
+
+<p>
+<img src="https://i.imgur.com/VDQJoiE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<img src="https://i.imgur.com/4jpUl4R.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<img src="https://i.imgur.com/N9e2MBz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<img src="https://i.imgur.com/aXWdBkL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<img src="https://i.imgur.com/P6aah06.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
